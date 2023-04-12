@@ -50,7 +50,7 @@ class Database:
         host = os.environ.get("107.178.210.122")
         user = os.environ.get("postgres")
         password = os.environ.get("ARDGISumn19123?!")
-        db_name = os.environ.get("DBNAME")
+        db_name = os.environ.get("lab3")
         port = os.environ.get("5432")
 
         # Return Instance
