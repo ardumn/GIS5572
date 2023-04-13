@@ -172,8 +172,8 @@ class Pipeline:
 
         arcpy.management.GenerateTessellation(
             self._empty_tessellation_path,
-            self.point_feature_class,
-            "H3_HEXAGON",
+            Extent=self.point_feature_class,
+            Shape_Type="H3_HEXAGON",
             H3_Resolution=res,
         )
 
